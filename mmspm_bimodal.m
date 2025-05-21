@@ -19,7 +19,7 @@ function [ b_struct ] = mmspm_bimodal(Y, freq, mmspm_settings)
 % DISCLOSURE: This program is still under development and therefore
 % future updates to the code can be expected.
 %
-% The license applies equivalently to all functions called by mmspm_bimodal.m
+% This license and disclosure applies equivalently to all functions called by mmspm_bimodal.m
 %
 % Last modified: 05/21/2025
 
