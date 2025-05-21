@@ -1,5 +1,25 @@
 function [ b_struct ] = mmspm_bimodal(Y, freq, mmspm_settings)
 
+% Multi-Modal Spectral Parametrization Method (MMSPM) for bimodal characterization of electrophysiological spectra
+% Copyright (C) 2025 Frigyes Samuel Racz, Department of Neurology, Dell Medical School, The University of Texas at Austin
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <https://www.gnu.org/licenses/>.
+%
+% DISCLOSURE: This program is still under development and therefore
+% future updates to the code can be expected.
+% Last modified: 05/21/2025
+
 %% Step 0. set defaults
 m_set = func_set_mmspm_settings(mmspm_settings);
 
