@@ -28,4 +28,10 @@ First, a parameter settings Matlab structure needs to be defined. More details o
 - 'flag_disp', true,...                  % flag for displaying results in command window
 - 'debug', false,...                     % debug mode
 
-    
+MMSPM takes as input raw power estimates (i.e., as obtained via pwelch.m and without log-transformation), the corresponding, evenly sampled vector of frequencies, and the mmspm_settings structure.
+
+MMSPM returns an mmspm struct, which then can be visualized using _plot_mmspm.m_, or main outputs can be printed to console using _disp_mmspm.m_.
+
+An initial report detailing the workings and evaluating the performance of MMSPM will be published as a preprint soon.
+
+
